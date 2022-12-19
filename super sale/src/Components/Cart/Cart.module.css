@@ -1,0 +1,30 @@
+#cart{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#noItem{
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+
+#cartCount{
+    display:inline-block;
+    background-color: pink;
+    padding: 2px 5px;
+}
+
+#cartItems{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#cartItems>div{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(7, 85, 59);
+    padding: 20px 100px 20px 100px;
+}
+
+.leftFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.leftFooterIcon {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#rightFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about_faq {
+    text-decoration: none;
+    color: black;
+}
+
+#social {
+    font-size: 36px;
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.default {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+}
+
+.default:hover {
+    color: wheat;
+}
+
+#Navbar {
+    background-color: rgb(13, 75, 56);
+    width: 100%;
+    height: 75px;
+    font-size: 18px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#websiteLogo {
+    height: 50px;
+    width: 110px;
+    padding-left: 50px;
+}
+
+.cart {
+    font-size: 24px;
+    cursor: pointer;
+    color: pink;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+#loginIcon {
+    padding-right: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}

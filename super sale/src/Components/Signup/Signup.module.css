@@ -1,0 +1,53 @@
+#formDiv {
+    width: 33%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#form {
+    background-color: rgb(26, 148, 111);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 80%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.input {
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#submit {
+    display: block;
+    width: 83%;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: wheat;
+}
+
+#submit:hover {
+    background-color: rgb(238, 202, 134);
+}
+
+#create {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#createLink {
+    color: black;
+}

@@ -1,0 +1,46 @@
+.productsContainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.productsDiv {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.singleProductDiv {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.productImg {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.productLink {
+    text-decoration: none;
+    color: black;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sortPrice {
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+}
